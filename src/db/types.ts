@@ -1,0 +1,9 @@
+export type SnowflakeConfig = {
+  account: string;
+  username: string;
+  password: string;
+  database: string;
+  schema: string;
+  warehouse: string;
+  role?: string;
+};
